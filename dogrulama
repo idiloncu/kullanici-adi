@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class sifre_kontrol {
+    public static void main(String[] args) {
+
+        String kullaniciAdi,sifre;
+        Scanner kontrol=new Scanner(System.in);
+
+        System.out.println("ŞİFRE: ");
+        sifre=kontrol.nextLine();
+        System.out.println("KULLANICI ADI: ");
+        kullaniciAdi=kontrol.nextLine();
+
+        if (sifre=="123")
+        {
+            System.out.println("ŞİFRE DOGRU");
+        }
+        else
+        {
+            System.out.println("ŞİFRE YANLIS");
+        }
+        if (kullaniciAdi=="idilix")
+        {
+            System.out.println("KULLANICI ADI DOGRU");
+        }
+        else
+        {
+            System.out.println(" KULLANICI ADI YANLIS");
+        }
+
+
+
+    }
+}
